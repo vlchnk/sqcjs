@@ -1,6 +1,6 @@
 {
   "name": "@vlchnk/sqce.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Structured query condition evaluator for JavaScript objects",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -29,7 +29,7 @@
     "object",
     "predicate"
   ],
-  "author": "",
+  "author": "Eduard Khabisov",
   "license": "MIT",
   "devDependencies": {
     "tsup": "^8.0.0",

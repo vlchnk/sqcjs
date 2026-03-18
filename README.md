@@ -1,6 +1,6 @@
 # @vlchnk/sqce.js
 
-> **S**tructured **Q**uery **C**ondition **JS**
+> **S**tructured **Q**uery **C**ondition **E**valuator **JS**
 
 A lightweight, zero-dependency TypeScript/JavaScript library for evaluating SQL-like string conditions against JavaScript objects.
 
@@ -95,7 +95,7 @@ evaluateCondition("user.tags[0] = 'premium'", context); // true
 
 ## API Reference
 
-### `evaluateCondition(condition: string, context?: Record<string, any>): boolean`
+#### `evaluateCondition(condition: string, context?: Record<string, any>): boolean`
 
 - **`condition`**: A string containing the SQL-like query to evaluate. Must not be empty.
 - **`context`**: (Optional) The JavaScript object containing the data to test against the condition. Defaults to `{}`.
