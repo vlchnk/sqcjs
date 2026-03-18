@@ -1,5 +1,5 @@
 {
-  "name": "sqce.js",
+  "name": "@vlchnk/sqce.js",
   "version": "1.0.0",
   "description": "Structured query condition evaluator for JavaScript objects",
   "main": "./dist/index.js",

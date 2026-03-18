@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { evaluateCondition } from '../src';
 
-describe('sqce.js - evaluateCondition', () => {
+describe('@vlchnk/sqce.js - evaluateCondition', () => {
   it('should evaluate simple equality', () => {
     expect(evaluateCondition('status = "active"', { status: 'active' })).toBe(true);
     expect(evaluateCondition('status == "active"', { status: 'pending' })).toBe(false);
