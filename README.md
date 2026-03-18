@@ -1,10 +1,10 @@
-# sqcjs
+# sqce.js
 
 > **S**tructured **Q**uery **C**ondition **JS**
 
 A lightweight, zero-dependency TypeScript/JavaScript library for evaluating SQL-like string conditions against JavaScript objects.
 
-[![npm version](https://img.shields.io/npm/v/sqcjs.svg)](https://www.npmjs.com/package/sqcjs)
+[![npm version](https://img.shields.io/npm/v/sqce.js.svg)](https://www.npmjs.com/package/sqce.js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
@@ -20,11 +20,11 @@ A lightweight, zero-dependency TypeScript/JavaScript library for evaluating SQL-
 Install via npm, yarn, or pnpm:
 
 ```bash
-npm install sqcjs
+npm install sqce.js
 # or
-yarn add sqcjs
+yarn add sqce.js
 # or
-pnpm add sqcjs
+pnpm add sqce.js
 ````
 
 ## Quick Start
@@ -32,7 +32,7 @@ pnpm add sqcjs
 Import the `evaluateCondition` function and pass your query string along with the object (context) you want to test.
 
 ```typescript
-import { evaluateCondition } from 'sqcjs';
+import { evaluateCondition } from 'sqce.js';
 
 const product = { 
   id: 66382856, 
@@ -68,7 +68,7 @@ evaluateCondition("user.tags[0] = 'premium'", context); // true
 
 ## Supported Operators
 
-`sqcjs` supports a wide range of standard logical and comparison operators.
+`sqce.js` supports a wide range of standard logical and comparison operators.
 
 ### Comparison
 
